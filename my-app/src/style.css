@@ -86,3 +86,13 @@ image .comscience-logo {
 .button-red {
     background-color: #ff6347;
 }
+
+b {
+    color:#bd9c6c;
+    text-align: center;
+    text-decoration: none;
+}
+
+b:hover {
+    color: blue;
+}

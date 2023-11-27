@@ -1,47 +1,50 @@
 import React from 'react';
-import './components/css/style.css';
-import Header from './componenets/js/Header1.jsx';
-import buildingImage from './images/building.png';
-import Footer from './components/js/Footer1.jsx';
-import './componenets/css/Footer.css';
+import './style.css';
+import Header from './Header.jsx';
+import buildingImage from './building.png';
+import Footer from './Footer1.jsx';
+import './Footer.css';
 
 const App = () => {
   return (
     <div>
       <Header />
-
       <div className="header">
         <h1>Welcome!</h1>
       </div>
 
-      <div className="building">
-        <img className="building-image" src={buildingImage} width="300px" height="300px" alt="Building" />
+      <div className="container">
+      <div class="card">
+                <h2>Undergraduate Programmes</h2>
+                <p>Explore our wide range of undergraduate programs in computer science.</p>
+                <a href="undergraduate.html"><b class="read-more">Read More</b></a>
+            </div>
+    
+            <div class="card">
+                <h2>MPhil and MSc programmes</h2>
+                <p>Learn about our MPhil and MSc programs that offer in-depth research opportunities.</p>
+                <a href="MPhil.html"><b class="read-more">Read More</b></a>
+            </div>
+    
+            <div class="card">
+                <h2>Short Courses</h2>
+                <p>Discover our short courses designed to enhance specific skills in computer science.</p>
+                <a href="Short.html"><b class="read-more">Read More</b></a>
+            </div>
+    
+            <div class="card">
+                <h2>PhD programmes</h2>
+                <p>Explore our PhD programs and pursue advanced research in computer science.</p>
+                <a href="PhD.html"><b class="read-more">Read More</b></a>
+            </div>
       </div>
 
+      <img src={buildingImage} alt="Computer Science Building" />
+
       <Footer />
-      <footer className="footer-area">
-        <div className="footer-content">
-          <div className="footer-section">
-            <h4>Academics</h4>
-            <ul>
-              <li>
-                <a href="undergraduate.html">Undergraduate Courses</a>
-              </li>
-              <li>
-                <a href="graduateMPhil.html">Graduate Courses (MPhil Computer Science)</a>
-              </li>
-              <li>
-                <a href="graduateMSc.html">Graduate Courses (PhD)</a>
-              </li>
-            </ul>
-          </div>
-        </div>
-      </footer>
+      
     </div>
   );
 };
 
 export default App;
-
-
-

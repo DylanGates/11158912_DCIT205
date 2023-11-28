@@ -41,3 +41,8 @@ h2 {
 .card h3 {
     margin: 0;
 }
+
+img {
+    height: 50px;
+    width: 100px;
+}

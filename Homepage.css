@@ -1,14 +1,27 @@
 body {
     margin: 0;
+    background-color: rgb(255, 255, 255);
 }
 
 .title {
-    background-color: #bd9c6c;
+    background-color: black;
     text-align: center;
     margin-bottom: 20px;
     padding: 30px;
     color: hsl(0, 0%, 95%);
     font-size: 25px;
+    height: 150px;
+    justify-content: baseline;
+}
+
+h2 {
+    background-color: #bd9c6c; 
+    color: white; 
+    position: relative; 
+    height: 50px;
+    width: 100%; 
+    padding: 10px 0;
+    margin: 0;
 }
 
 p {
@@ -27,21 +40,33 @@ p {
     margin: 8px;
 }
 
-.card {
-    align-content: center;
-    background-color: #f1f1f1;
-    padding: 30px;
-    margin-top: 20px;
-    margin: 50px 30px 50px 30px;
-    display: inline-block;
-    width: 300px;
-    vertical-align: baseline;
-    box-shadow: 0px 6px 10px 0px rgba(0, 0, 0, 0.2); 
-    transition: box-shadow 0.3s;
+.block {
+    position: relative;
+    width: 200px;
+    height: 200px;
+    background-color: #bd9c6c;
+    color: white;
+    padding: 20px;
+    transition: transform 0.3s ease;
+    margin-bottom: 20px;
 }
-
-.card:hover {
-    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+  
+.block-heading {
+    margin-top: 0;
+}
+  
+.block:hover {
+    transform: scale(1.1);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
+  
+.block:hover .read-more {
+    opacity: 1;
+}
+  
+.read-more {
+    opacity: 0;
+    transition: opacity 0.3s ease;
 }
 
 .container1 {
@@ -54,7 +79,7 @@ p {
 }
 
 b {
-    color:#bd9c6c;
+    color:white;
     text-align: center;
     text-decoration: none;
 }

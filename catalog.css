@@ -8,7 +8,6 @@ h1, h2, h3, h4, h5, h6 {
 margin: 0;
 }
 
-/* Header Styles */
 header {
 background-color: #333;
 color: #fff;
@@ -16,7 +15,7 @@ padding: 20px;
 text-align: center;
 }
 
-/* Navigation Styles */
+
 nav {
 background-color: #666;
 color: #fff;
@@ -24,7 +23,6 @@ padding: 10px;
 text-align: center;
 }
 
-/* Main Content Styles */
 main {
 padding: 20px;
 }
@@ -52,7 +50,6 @@ font-weight: bold;
 text-align: left;
 }
 
-/* Footer Styles */
 footer {
 background-color: #333;
 color: #fff;

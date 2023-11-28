@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en-Us">
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="Header.css">
+    <link rel="stylesheet" href="Footer.css">
+    <title>Faculty</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+        }
+        .section {
+            margin-bottom: 20px;
+        }
+        .section h1 {
+            margin-bottom: 10px;
+        }
+        .faculty-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 20px;
+        }
+        .faculty-card {
+            background-color: #f8f9fa;
+            padding: 20px;
+            border-radius: 5px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            text-align: center;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        .faculty-card img {
+            width: 100%;
+            height: auto;
+            object-fit: cover;
+            border-radius: 5px 5px 0 0;
+            margin-bottom: 10px;
+        }
+        .faculty-card h3,
+        .faculty-card p {
+            margin: 0;
+        }
+    </style>
+</head>
+<body>
+    <div class="section">
+        <h1>Faculty</h1>
+    </div>
+
+    <div class="section">
+        <div class="faculty-grid">
+            <div class="faculty-card">
+                <img src="Michael S Image.webp" alt="Faculty Member Image">
+                <div class="details">
+                    <h3>Michael Agbo Tettey Soli</h3>
+                    <p>Professor</p>
+                    <p>Research Areas: Senior Software Engineer | PhD Candidate | Co-Founder</p>
+                </div>
+            </div>
+
+            <div class="faculty-card">
+                <img src="PBS Image.jpg" alt="Faculty Member Image">
+                <div class="details">
+                    <h3>Prince Boakye-Sekyerehene</h3>
+                    <p>Professor</p>
+                    <p>Research Areas: Senior Product Manager | PhD Candidate | Co-Founder | Life Coach</p>
+                </div>
+            </div>
+            
+            <div class="faculty-card">
+                <img src="John Doe Image.jpg" alt="Faculty Member Image">
+                <div class="details">
+                    <h3>John Doe</h3>
+                    <p>Assistant Professor</p>
+                    <p>Research Areas: Data Science | Machine Learning | Artificial Intelligence</p>
+                </div>
+            </div>
+            
+            <div class="faculty-card">
+                <img src="Jane Smith Image.jpg" alt="Faculty Member Image">
+                <div class="details">
+                    <h3>Jane Smith</h3>
+                    <p>Associate Professor</p>
+                    <p>Research Areas: Human-Computer Interaction | User Experience Design</p>
+                </div>
+            </div>
+            
+            <div class="faculty-card">
+                <img src="David Wilson Image.jpg" alt="Faculty Member Image">
+                <div class="details">
+                    <h3>David Wilson</h3>
+                    <p>Professor</p>
+                    <p>Research Areas: Cybersecurity | Network Security | Cryptography</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

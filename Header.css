@@ -1,0 +1,39 @@
+.header-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+
+.header-nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    position: realtive;
+    top: 0;
+    right: 0;
+    padding: 25px;
+}
+
+.header-nav ul li {
+    display: inline-block;
+    margin-left: 20px;
+}
+
+.header-nav ul li:first-child {
+    margin-left: 0;
+}
+
+.header-nav ul li a {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    transition: color 0.3s;
+    text-transform: uppercase;
+    font-family: "Poppins", sans-serif;
+    font-size: 12px;
+}
+
+.header-nav ul li a:hover {
+    color: red;
+}

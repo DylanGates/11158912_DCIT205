@@ -4,15 +4,17 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>My Website</title>
+    <title>Welcome!</title>
+    <link rel="stylesheet" href="Header.css">
+    <link rel="stylesheet" href="Footer.css">
   </head>
   <body>
     <header>
-        <div className="header-content">
-          <a href="home.html">
-            <img className="comscience-logo" src={comScienceLogo} width="300px" height="50px" alt="Computer Science Department Logo" />
-          </a>
-          <nav className="header-nav">
+        <div class="header-content">
+            <a href="HomePage.html">
+                <img src="comScience_logo.png" alt="Computer Science Department Logo" width="300px" height="50px">
+            </a>
+          <nav class="header-nav">
             <ul>
               <li><a href="HomePage.html">Home</a></li>
               <li><a href="Events.html">Events</a></li>
@@ -22,16 +24,46 @@
             </ul>
           </nav>
         </div>
-      </header>
+    </header>
+        <link rel="stylesheet" href="Homepage.css">
+        <section class="feature-area">
+            <div class="title">
+                <h1>Your Gateway to World Class Computer Science Education</h1>
+            </div>
+            <section class="flex-container">
+                <p>The Department of Computer Science at University of Ghana offers a comprehensive program in computer science education and research. Our mission is to provide students with a strong foundation in computer science principles and practical skills, preparing them for successful careers in the field.</p>
+                <p>We offer a range of undergraduate and graduate programs, including Bachelor's, Master's, and Ph.D. programs. Our faculty consists of experienced and dedicated professors who are actively engaged in cutting-edge research across various areas of computer science.</p>
+            </section>
+        <div class="container1">
+            <div class="card">
+                <h2>Undergraduate Programmes</h2>
+                <p>Explore our wide range of undergraduate programs in computer science.</p>
+                <a href="undergraduate.html"><b class="read-more">Read More</b></a>
+            </div>
     
-    <main>
-      <h2>Welcome to Our Home Page</h2>
-      <p>This is the main content of the home page.</p>
-    </main>
+            <div class="card">
+                <h2>MPhil and MSc programmes</h2>
+                <p>Learn about our MPhil and MSc programs that offer in-depth research opportunities.</p>
+                <a href="MPhil.html"><b class="read-more">Read More</b></a>
+            </div>
     
-    <footer className="footer-area">
-        <div className="footer-content1">
-          <div className="footer-section">
+            <div class="card">
+                <h2>Short Courses</h2>
+                <p>Discover our short courses designed to enhance specific skills in computer science.</p>
+                <a href="Short.html"><b class="read-more">Read More</b></a>
+            </div>
+    
+            <div class="card">
+                <h2>PhD programmes</h2>
+                <p>Explore our PhD programs and pursue advanced research in computer science.</p>
+                <a href="PhD.html"><b class="read-more">Read More</b></a>
+            </div>
+        </div>
+    </section>
+    
+    <footer class="footer-area">
+        <div class="footer-content1">
+          <div class="footer-section">
             <h4>Academics</h4>
             <ul>
               <li>
@@ -47,8 +79,8 @@
             </ul>
           </div>
         </div>
-        <div className="footer-content2">
-          <div className="footer-section">
+        <div class="footer-content2">
+          <div class="footer-section">
             <h4>Research</h4>
             <ul>
               <li>
@@ -58,8 +90,8 @@
           </div>
         </div>
   
-        <div className="footer-content3">
-          <div className="footer-section">
+        <div class="footer-content3">
+          <div class="footer-section">
             <h4>About Us</h4>
             <ul>
               <li></li>
@@ -67,27 +99,19 @@
           </div>
         </div>
   
-        <div className="footer-content4">
-          <div className="footer-section">
+        <div class="footer-content4">
+          <div class="footer-section">
             <h4>Contact Details</h4>
             <ul>
               <li>
                 <h5 padding="6px">Telephone Numbers:</h5>
-                <a href="tel:+233501382035"><span>+233501382035</span></a><br></br>
+                <a href="tel:+233501382035"><span>+233501382035</span></a><br>
                 <a href="tel:+233559145698"><span>+233559145698</span></a>
-              </li>
-              <li>
-                <h5>Mail</h5>
                 <a href="mailto:dcs@ug.edu.gh"><span>dcs@ug.edu.gh</span></a>
-              </li>
-              <li>
-                <h5>Location</h5>
-                <p>University Of Ghana, Legon Campus</p>
-                <p>Opposite Mathematics Department</p>
               </li>
             </ul>
           </div>
-        </div>
-      </footer>
+        </div>     
+    </footer>
   </body>
 </html>

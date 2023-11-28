@@ -23,12 +23,14 @@ margin-bottom: 10px;
 }
 
 .title {
-    background-color: #bd9c6c;
+    background-color: black;
     text-align: center;
     margin-bottom: 20px;
     padding: 30px;
-    color: #f1f1f1;
+    color: hsl(0, 0%, 95%);
     font-size: 25px;
+    height: 120px;
+    justify-content: baseline;
 }
 
 p {
@@ -87,13 +89,12 @@ input[type="submit"]:hover {
 background-color: #555;
 }
 
-/* Footer Styles */
-footer {
-background-color: #f2f2f2;
-padding: 10px;
-text-align: center;
-font-size: 14px;
-color: #777;
+.event-details {
+    display: none;
+}
+
+.event-section[data-show="true"] .event-details {
+    display: block;
 }
 
 /* Fonts */

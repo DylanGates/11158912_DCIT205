@@ -1,3 +1,10 @@
+function toggleEventDetails(eventId) {
+  const eventSection = document.getElementById(eventId);
+  const eventDetails = eventSection.querySelector(".event-details");
+  const isShow = eventSection.getAttribute("data-show") === "true";
+  eventSection.setAttribute("data-show", !isShow);
+}
+
 document.getElementById("registrationForm").addEventListener("submit", function(event) {
     event.preventDefault(); // Prevent form submission
   
